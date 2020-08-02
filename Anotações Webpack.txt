@@ -78,10 +78,13 @@ yarn dev
 	sobe o servidor.
 
 
+	O webpack-dev ele vai servir exatamente para a gente trabalhar com nosso
+	projeto offline.
 
-
-
-
+Webpack-dev-server:
+	
+	com ele eu não preciso atualizar o navegador, ele faz isso automaticamente.
+	ele fica monitorando se eu fiz alguma atualização.
 
 
 
