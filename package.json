@@ -1,0 +1,20 @@
+{
+  "name": "ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonatasrmoura/ES6.git",
+  "author": "Jonatas Rosa Moura <jonatas.rmoura@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development -w"
+  }
+}

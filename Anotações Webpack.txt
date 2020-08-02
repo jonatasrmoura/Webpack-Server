@@ -1,0 +1,54 @@
+================ CONFIGURANDO WEBPACK ==================
+
+WebPack é como se fosse um serviço que vai nós disponibisizar uma forma de podermos
+trabalhar com vários arquivos JS na nossa aplicação. Não só JS mas como arquivos de imagens
+JSON, CSS, tudo através do JavaScript utilizando Webpack.
+
+Começar:
+
+
+OBS:
+No arquivo package.json, estou instalando tudo como dependencias, porém, essas dependencias
+que estou instalando do babel (todas do babel), elas são dependencias que vou precisar 
+apenas no ambiente de desenvolvimento e não no ambiente de produção quando nossa aplicação
+estiver rodando online, porque no online o babel não vai precisar fazer nada, para o online
+vou só fazer o bundle.js e jogar ele no online.
+
+
+
+yarn add webpack webpack-cli -D		("-D" apenas para desenvolvimento "não produção")
+
+
+Agora vamos fazer um arquivo de configuração do webpack, assim como foi criado para o
+babel, o arquivo de configuração do webpack tem o nome um pouco diferente:
+
+	webpack.config.js
+
+esse vai ser sempre o arquivo principal de configuração do webpack.
+Dentro do arquivo webpack vou criar um sintaxe, também um pouco diferente.
+
+
+yarn add babel-loader -D
+
+
+
+Agora vou testar o webpack e ver se está tudo certo. (essa parte vai está no código)
+
+vou fazer um novo arquivo chamado funcoes.js, vou primeiro fazer uma sintaxe para testar
+
+Teste feito, deu tudo certo, então agora eu consigo importar e exportar arquivos, tudo
+isso graças ao webpack.
+-----------------------------------------------------------------------------------------------
+================== IMPORT/EXPORT ===============
+
+
+
+
+
+
+
+
+
+
+
+
