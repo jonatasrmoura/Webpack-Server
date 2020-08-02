@@ -1,8 +1,15 @@
 module.exports = {
-    entry: './main.js', // fala qual que é o arquivo principal
+    entry: './src/main.js', // fala qual que é o arquivo principal
     output: { // para qual arquivo eu devo enviar o código convertido para antes do EM6
-        path: __dirname, // variável G que se refere ao diretorio webpack.config.js
+        path: __dirname + '/public', // variável G que se refere ao diretorio webpack.config.js
         filename: 'bundle.js', // nome do arquivo
+    },
+    // Opção
+    devServer: {
+        // propriedade
+        /* É o caminho aonde vai ficar e aonde ele vai abrir o servidor da nossa
+        aplicação  */
+        contentBase: __dirname + '/public'
     },
     module: {
         // como o webpack deve se comportar quando o usuário estiver tentando importar novos arquivos JS

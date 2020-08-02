@@ -41,8 +41,41 @@ isso graças ao webpack.
 -----------------------------------------------------------------------------------------------
 ================== IMPORT/EXPORT ===============
 
+Todas as anotações no código VS Code.
+
+-----------------------------------------------------------------------------------------------
+===================== Webpack dev server =================
 
 
+Primeiro fazer a organização dos arquivos no VS Code:
+
+	Criar uma pasta chamada public e outra chamada src.
+
+Qual que é a diferença entre essas duas pastas?
+	
+	Na pasta src vai ficar todos os JS que vamos usar na nossa aplicação
+
+
+	Dentro da pasta public vamos ter todos os arquivos que não vamos trabalhar
+	diretamete.
+
+	Então no src vão ficar todos os arquivos que o webpack precisa monitora as mudanças
+	e no public vão ficar os arquivos que não precisam ser monitorados do webpack.
+
+também organizar o webpack.config.js certinho.
+
+
+
+yarn add webpack-dev-server -D
+
+	configurar no arquivos package.json e webpack.conf.js.
+
+	Com isso ele vai criar e rodar um servidor para nós, conseguimos acessar com o
+	endereço que vai dá para nós acessar,
+
+yarn dev
+
+	sobe o servidor.
 
 
 
