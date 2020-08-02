@@ -1,2 +1,2 @@
 # Webpack-Server
- Estudos com no curso da Rocketseat
+ Estudos com ES6, 7 e 8 no curso da Rocketseat
